@@ -1,0 +1,37 @@
+
+h1 {
+  hight:110px;
+  width:230px;
+  font-size: 25px;
+  text-align: center;
+  background-color: #FFF0F5;
+  color: #4B0082;
+  border : solid #9370DB 20px ;
+  font-style: italic;
+  border-radius: 100px;
+  animation-name: fuckyou ;
+  animation-duration: 5s ;
+}
+.click {
+  background-color:#663399;
+  color:white;
+  height: 100px;
+  width: 200px;
+  font-size: 30px;
+}
+body {
+  background-color:#FFFAFA;
+}
+@keyframes fuckyou {
+  from {background-color :#FFF0F5;}
+  to {background-color:#4B0082;}
+  from {color:#4B0082;}
+  to{color:#FFF0F5;}
+}
+div {
+  color:#FDF5E6;
+  margin: auto;
+  width:500px;
+  hight:100px;
+  float: down;
+}
